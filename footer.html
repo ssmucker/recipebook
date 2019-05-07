@@ -1,0 +1,43 @@
+<!-- End page container div -->
+</div>
+
+<!-- End modal div -->
+</div>
+
+<div class="new-recipe-container">
+    <a href="" target="_self" id="add-recipe-button">
+        <div class="new-recipe">+</div>
+    </a>
+    <div class="prompt">Add a New Recipe<span class="exit">x</span></div>
+
+    <div class="recipe-form-container">
+        <form action="" method="post" enctype="multipart/form-data" id="new-recipe-form">
+            <label class="form-label" for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label class="form-label" for="description">Description:</label>
+            <input type="text" id="description" name="description">
+
+            <label class="form-label" for="source">Source:</label>
+            <input type="text" id="source" name="source">
+
+            <label class="form-label" for="image">Upload Image</label>
+            <input type="file" id="image" name="image" value="Upload Image">
+
+            <label class="form-label" for="ingredients">Ingredients:</label>
+            <textarea name="ingredients" id="ingredients" required></textarea>
+
+            <label class="form-label" for="recipe">Recipe:</label>
+            <textarea name="recipe" id="recipe" required></textarea>
+
+            <input type="submit" class="form-button submit" value="Add Recipe">
+            <div class="form-button cancel">Clear Recipe</div>
+        </form>
+
+        <p class="success"></p>
+        <p class="failure"></p>
+    </div>
+</div>
+
+</body>
+</html>

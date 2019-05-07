@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SmuckLapp Recipe Book</title>
+
+    <!-- Include Quicksand font for headings-->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700" rel="stylesheet">
+
+    <!-- Include css stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Include jQuery -->
+    <script
+        src="https://code.jquery.com/jquery-3.4.0.min.js"
+        integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+        crossorigin="anonymous"></script>
+
+    <!-- Include custom Javascript -->
+    <script src="scripts.js"></script>
+
+    <!-- Include TinyMCE Editor -->
+    <script src="https://cloud.tinymce.com/5/tinymce.min.js?apiKey=kk0z81r8ad5hi9kayvtnz59bhpzxjlujnyut5gonhkvteamv"></script> 
+    <script>tinymce.init({ selector:'textarea',
+                           height: 250,
+                           plugins: "lists advlist",
+                           toolbar: 'fontsizeselect | bold italic underline | alignleft aligncenter alignright alignjustify | outdent indent | bullist numlist',
+                           menubar: false });</script>
+</head>
+
+<body>
+    <div class="page-container">
+        <div class="modal">
+            <div class="header">
+                <a href="./index.php" target="_self">
+                    <span class="smuck">SmuckL</span><span class="apps">apps</span>
+                    <span class="app-name">Recipe Book</span>
+                </a>
+            </div>
